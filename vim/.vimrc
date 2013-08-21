@@ -8,3 +8,4 @@ hi Tab gui=underline guifg=blue ctermbg=blue
 :match LineTooLong /\%81v.\+/
 highlight EWOL ctermbg=lightgray ctermfg=white guibg=lightgray guifg=white
 match EWOL /\%>80v.\+\|\s\+$/
+:let @/=',[^ ]'
