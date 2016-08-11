@@ -1,0 +1,8 @@
+https://pythonhosted.org/an_example_pypi_project/setuptools.html#uploading-your-project
+
+- bdist_egg: This creates an egg file. This is what is necessary so someone can use easy_install your_project.
+- bdist_wininst: This will create an .exe that will install your project on a windows machine.
+- sdist: This create a raw source distribution which someone can download and run python setup.py directly.
+
+python setup.py sdist upload
+
